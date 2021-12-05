@@ -27,3 +27,7 @@ iframe {
   object-fit: cover;
   object-position: center;
 }
+#media-container{
+  height: inherit;
+  width: inherit;
+}
