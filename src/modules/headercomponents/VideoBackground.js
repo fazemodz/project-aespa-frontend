@@ -16,7 +16,8 @@ export default function VideoBackground() {
           muted
           playing
           controls={false}
-          url={AespaVideo}
+          url={[{ src: AespaVideo, type: "video/mp4" }]}
+          // onError={url=""}
         />
       </div>,
       document.getElementById("video"),
