@@ -15,11 +15,8 @@ export default function VideoBackground() {
           loop
           muted
           playing
-          url={[{ src: AespaVideo, type: "video/mp4" }]}
-          style={{
-            width: "auto",
-            height: "auto",
-          }}
+          controls={false}
+          url="https://streamable.com/x5g3s7"
         />
       </>,
       document.getElementById("video"),
