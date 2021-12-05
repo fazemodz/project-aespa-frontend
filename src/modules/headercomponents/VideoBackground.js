@@ -7,7 +7,7 @@ import 'animate.css';
 export default function VideoBackground() {
   // Renders this function outside of the react app render target using ReactDom.createPortal()
     return ReactDom.createPortal(
-        <>
+        <div>
         {/* Create a player for video background */}
         <ReactPlayer
         // animate__animated animate__fadeInLeft are used to animate the video background
@@ -16,9 +16,9 @@ export default function VideoBackground() {
           muted
           playing
           controls={false}
-          url="https://streamable.com/x5g3s7"
+          url={AespaVideo}
         />
-      </>,
+      </div>,
       document.getElementById("video"),
     )
 

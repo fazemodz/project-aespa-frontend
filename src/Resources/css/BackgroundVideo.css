@@ -15,3 +15,15 @@
   width: inherit;
   color: rgba(0, 0, 0, 0.315);
 }
+video {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  object-position: center;
+}
+iframe {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  object-position: center;
+}
