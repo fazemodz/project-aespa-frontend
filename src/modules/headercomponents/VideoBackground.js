@@ -26,7 +26,7 @@ export default class VideoBackground extends React.Component {
     );
   }
   RenderVideoFrameFallBack() {
-    console.log("Video loading faile falling to Render Video Frame FallBack");
+    console.log("Video loading failed falling to Render Video Frame FallBack");
     // fallback to stream video url if load from file fails due to Git LFS
     return (
       <div>
