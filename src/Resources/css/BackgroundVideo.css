@@ -11,15 +11,22 @@
   z-index: -1;
 }
 .Video_Dim {
-  height: inherit;
+  height: 100vh;
   width: inherit;
   color: rgba(0, 0, 0, 0.315);
 }
 video {
-  height: inherit;
+  height: 100vh;
   width: inherit;
   object-fit: cover;
   object-position: center;
+}
+#video{
+  height: 100vh;
+}
+.Background{
+  height: 100vh;
+  min-height: 100vh;
 }
 iframe {
   height: inherit;
