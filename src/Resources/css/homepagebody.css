@@ -1,13 +1,14 @@
 .homepagebody{
     margin: 0px;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f2f2;
 }
 .Kwangyapicrendertarget{
     margin: 0px;
-    height: 100%;
-    width: 100%;
-    background-image: url("../Pictures/kwangya.png");
+    height: 100vh;
+    width: 100vw;
+    background: url("/static/media/kwangya.png");
 }
 #App{
     margin: 0px;

@@ -4,10 +4,10 @@ export default function Homepagebody() {
     return (
         <div>
             <div className="homepagebody">
-                <div classname="Kwangyapicrendertarget"/>
+                <div className="Kwangyapicrendertarget"/>
                     <div className="KwangyaTextcontainer">
                         <p className="KawngiaMainText">
-                            Step into hte world of Kwangya 
+                            Step into the world of Kwangya 
                         </p>
 
                     </div>
