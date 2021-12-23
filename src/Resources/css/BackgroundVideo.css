@@ -1,25 +1,26 @@
 .Background_Vid_Aespa {
   width: 100vw !important;
   height: 100vh !important;
-  object-fit: cover;
-  object-position: center;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+  z-index: -1; 
 }
 .Video_Dim {
-  height: inherit;
+  height: 100vh;
   width: inherit;
   color: rgba(0, 0, 0, 0.315);
 }
 video {
-  height: inherit;
+  height: 100vh;
   width: inherit;
   object-fit: cover;
   object-position: center;
+}
+#video{
+  height: 100vh;
+}
+.Background{
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
 }
 iframe {
   height: inherit;
