@@ -1,21 +1,24 @@
 .BandName {
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 7.5rem;
-  margin: 0;
-  font-family: "Ubuntu", sans-serif;
-  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 60pt;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 90px;
+  margin-bottom: 20px;
+  word-break: keep-all;
 }
 .Header_Text_Aespa {
   height: 300px;
   width: 900px;
   padding: 250px;
+<<<<<<< Updated upstream
   position: absolute;
   z-index: 1;
+=======
+>>>>>>> Stashed changes
 }
-.LatestMusicVideo{
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 83px;
+.LatestMusicVideo {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 83px;
 }
