@@ -2,7 +2,6 @@ import React from "react";
 import ReactDom from "react-dom";
 import ReactPlayer from "react-player";
 import AespaVideo from "../../Resources/Videos/aespasavage.mp4";
-import headertext from "./headertext";
 import "../../Resources/css/BackgroundVideo.css";
 import "animate.css";
 export default class VideoBackground extends React.Component {
