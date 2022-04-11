@@ -7,7 +7,7 @@ export default function headertext() {
   return ReactDom.createPortal(
       <div className="Header_Text_Aespa">
           <h1 className="BandName animate__animated animate__fadeInDown">AESPA</h1>
-          <h1 className="LatestMusicVideo animate__animated animate__fadeInUp">SAVAGE MV OUT NOW</h1>
+          <h1 className="LatestMusicVideo animate__animated animate__fadeInUp">STEP INTO THE WORLD OF KWANGYA </h1>
       </div>,
       document.getElementById("HeaderText")
   )

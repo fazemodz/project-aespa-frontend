@@ -34,3 +34,16 @@ video {
   width: auto;
   height: auto;
 }
+.Message-container{
+  width: 100vw;
+  height: 100vh;
+}
+.Message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FlagOfUkrain{
+  width: 200px;
+  height: 100px;
+}
